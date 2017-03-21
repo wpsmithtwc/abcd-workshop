@@ -20,7 +20,7 @@ resource "fastly_service_v1" "my-fastly-service" {
   force_destroy = true
 
   domain {
-    name    = "${var.fastly_name}.fastly-altitude-2017.com"
+    name    = "${var.fastly_name}-2.fastly-altitude-2017.com"
     comment = "Altitude 2017 workshop domain"
   }
 
